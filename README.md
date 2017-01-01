@@ -3,7 +3,7 @@
 Felicific is national techno culture fest organized at DDU (Dharmsinh Desai University). 
 
 ## Tool
-Android Studio
+* Android Studio
 
 ## Library / Dependencies 
 * Recyler View
