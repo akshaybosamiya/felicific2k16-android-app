@@ -5,7 +5,7 @@ Felicific is national techno culture fest organized at DDU (Dharmsinh Desai Univ
 ## Tool
 Android Studio
 
-## Library / Dependencies
+## Library / Dependencies 
 * Recyler View
 * Card View
 * Rest API
@@ -13,7 +13,7 @@ Android Studio
 
 	
 ## Screenshots
-<p align="left">
+<p align="centre">
   <img src="/ScreenShots/1.png " width="250"/>
   <img src="/ScreenShots/2.png" width="250"/>
   <img src="/ScreenShots/3.png" width="250"/>
@@ -24,7 +24,7 @@ Android Studio
 ----------
 
 ## Developer 
-- Akshay Bosamiya
+- Akshay Bosamiya 
 - Vimox Shah
 
 
