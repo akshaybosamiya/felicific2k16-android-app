@@ -13,13 +13,11 @@ Android Studio
 
 	
 ## Screenshots
-<p align="center">
+<p align="left">
   <img src="/ScreenShots/1.png " width="250"/>
   <img src="/ScreenShots/2.png" width="250"/>
-  <br/>
   <img src="/ScreenShots/3.png" width="250"/>
   <img src="/ScreenShots/4.png" width="250"/>
-  <br/>
   <img src="/ScreenShots/5.png" width="250"/>
 </p>
 
