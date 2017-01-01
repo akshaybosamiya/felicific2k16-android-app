@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.felicific.application.codesweeper.Committee">
+
+
+    <org.felicific.application.codesweeper.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="COMMITTEES"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        android:id="@+id/committeetitle"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/committeetitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#d1f4b6"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="start"
+                android:lineSpacingExtra="4dp"
+                android:text="\nCore Committee\n\nChief Patron:\nDr. H. M. Desai, The Vice Chancellor\nVice Patrons:\nProf. D. G. Panchal, Dean, FoT\nProf. R. K. Jain, Registrar\nProf. M. R. Bhavsar, CoE
+\nConvener:\nProf. (Dr). V. A. Shah, Head, IC Engg. Dept.\n\n\nCoordinators:\nProf. J. G. Bhatt, IC Engg. Dept.\nDr. M. T. Thakker, IC Engg. Dept. Advisor:\nProf. C. S. Dalal, IC Engg. Dept.\n\nOrganizing Committee\n\nCoordinators:\nProf. J. G. Bhatt\nDr. M. T. Thakker\n\nCoordinating Dept.Members:\nProf. C. S. Dalal\nProf. S. P. Shah\n\nDepartment Coordinators (IC):\nProf. T. J. Patel (T)\nProf. R. V. Mistry (C)\nProf. H. S. Shah\n\nDepartment Coordinators (EC):\nDr. Prarthan Mehta (T)\nProf. Marmik Soni (C)\n\nDepartment Coordinators (CE):\nProf. T. V. Ratanpara (W)\nProf. Parth Dave (C)\nProf. Vivek Patel (T)\n\nDepartment Coordinators (IT):\nProf. Ravindra Vyas (T)\nProf. Vimal Vachhani (T)\nProf. Brijesha D. Rao (C)\nProf. Tanvi Goswami (C)\n\nDepartment Coordinators (MH):
+\nProf. C. M. Fadadu (T)Prof. D. J. Desai (C)
+\nProf. K. K. Shah (T)
+\n
+\nDepartment Coordinators (CL):
+\nProf. Jigna Pandya (C)
+\nProf. R. N. Prajapati (T)
+\n
+\nDepartment Coordinators (CH):
+\nProf. Siddharth Modi (C)
+\nProf. Hitesh Panchal(T)
+\n
+\nDepartment Coordinators (MCA):
+\nProf. Minal Shah (T)
+\nProf. Utsav Patel (C)
+\n
+\Department Coordinators (BCA):
+\nProf. Minaz Shaikh (T)
+\nProf. Swati Adhiya (C)
+\n
+\nDepartment Coordinators (MBA):
+\nProf. Hardik Shah (C)
+\nProf. Mansi Rathod (T)
+\n
+\nT: Technical, C: Cultural, W: Website
+\n
+\nFinance and Expenditure Committee:
+\n
+\nCommittee Head
+\nProf. C. S. Dalal, IC Engg. Dept.
+\nMember
+\nProf. R. V. Mistry/ Prof. Vrunda (IC)
+\n
+\nDisciplinary Committee:
+\nCommittee Head
+\nProf. (Dr). V. A. Shah, Head, IC Engg. Dept.
+\nMember
+\nProf. A. G. Patel (IC)
+\n
+\nCentral Technical Events Organization Committee:
+\n
+\nNATIONAL CONFERENCE ON RECENT TRENDS IN TECHNOLOGY AND MANAGEMENT (NCRTTM 2016)
+\nProf. Jignesh Bhatt
+\nDr. Manish Thakker
+\nDr. Prarthan Mehta
+\n
+\nROBOTICS
+\nProf. Tigmanshu Patel
+\nProf. Himanshu Patel
+\nProf. Chirag Fadadu
+\n
+\nHUNTRONICS
+\nProf. Pinkesh Patel
+\nProf. Rachit Dana
+\n
+\nCODING
+\nProf. A. N. Roy, Prof. H. N. Shah
+\nProf. M. A. Patel
+\nProf. S. P. Patel Prof. C. K. Kanadia
+\nProf. G. R. Patel
+\nProf. N. K. Patel
+\nProf. M. J. Doshi
+\nProf. B. M. Patel Prof. Sandeep R. Suthar
+\nProf. Anand D. Dave
+\n
+\nGAMING
+\nProf. Vivek Patel
+\nProf. Ravindra Vyas
+\n
+\nOn-stage Cultural Committee:
+\nProf. Shashank Shah
+\nProf. Parth Dave
+\nProf. Utsav Patel
+\nProf. Shweta Gaur
+\nProf. Hardik Shah
+\nProf. Narendra Chauhan
+\nProf. Marmik Soni
+\nProf. Jatayu Baxi
+\nProf. Dipak Rabari
+\nProf. Rinal Mistry
+\nProf. Siddharth Modi
+\nProf. Heta Shah
+\nProf. Vrunda Shah
+\nProf. Dhruti
+\n
+\nOff-stage Cultural Committee:
+\nProf. Rinal Mistry
+\nProf. Heta Shah
+\n\n
+Publications and Campaigning Committee:
+\nProf. Shashank Shah
+\nProf. Shweta Gaur
+\n
+\nSocial Media and IT Committee:
+\nProf. Tushar Ratanpara\nProf. Marmik Soni"
+                android:textAlignment="textStart"
+                android:textColor="#212121"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:contentPadding="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_corner">
+
+                <org.felicific.application.codesweeper.MyTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_eventetdate"
+                    android:textSize="27dp"
+                    android:text="31"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+
+                <org.felicific.application.codesweeper.MyTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_eventetdate_month"
+                    android:textSize="10dp"
+                    android:text="May-16\n2016"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <org.felicific.application.codesweeper.MyTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:id="@+id/tv_title"
+                android:layout_marginTop="7dp"
+                android:textSize="17dp"
+                android:text="Member"
+                android:paddingLeft="5dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#cccccc"/>
+
+
+            <org.felicific.application.codesweeper.MyTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_teamsize"
+                android:textSize="15dp"
+                android:text="team size"
+                android:background="#cccccc"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#cccccc"/>
+
+            <org.felicific.application.codesweeper.MyTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_fess"
+                android:textSize="15dp"
+                android:text="fess"
+                android:background="#10cccccc"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#cccccc"/>
+
+            <org.felicific.application.codesweeper.MyTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_contact"
+                android:textSize="15dp"
+                android:text="Contact"
+                android:background="#10cccccc"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#cccccc"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <org.felicific.application.codesweeper.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="23dp"
+                    android:text="Description"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/btn_view"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="5dp"
+                    android:textAllCaps="false"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="View"
+                    android:textSize="17dp"
+                    android:drawableLeft="@android:drawable/ic_menu_view"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner_oval_white"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#cccccc"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <org.felicific.application.codesweeper.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="23dp"
+                    android:text="Rules"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/btn_view_rules"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="5dp"
+                    android:textAllCaps="false"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="View"
+                    android:textSize="17dp"
+                    android:drawableLeft="@android:drawable/ic_menu_view"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner_oval_white"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

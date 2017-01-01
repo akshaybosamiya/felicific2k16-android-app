@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="org.felicific.application.codesweeper.AboutFelicific">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#d1f4b6"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <org.felicific.application.codesweeper.MyTextView
+                android:id="@+id/ncttm_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="About Felicific"
+                android:textAllCaps="true"
+                android:textColor="#276cb0"
+                android:textSize="18dp" />
+
+            <org.felicific.application.codesweeper.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="start"
+                android:lineSpacingExtra="4dp"
+                android:text="Felicific is a Techno-Cultural Festival of Dharmsinh Desai University. In 2013, all branches of FOT grouped together under a single roof and the journey began. Felicific 2016 will be a national level tech fest and held between 8 to 11 of the March. FELICIFIC is a journey which began few years ago. With each passing year it grew and evolved and the abstract nothingness was molded into a definite shape with a purpose in mind. Years of tireless effort and dedicated endeavors, turned this into a legacy, a legacy which has been proudly carried by legions of students. The purpose and the core ethics have remained static since the fest's inception. To organize a fest with competitions designed to extract the best from students. Create an aura of aggressive competitiveness, and inculcate in the students a desire to excel and achieve what seems impossible. The competitions, the excitement and the aggressiveness contributed in creating frenzy hitherto unseen. But all this will pale in comparison to FELICIFIC 14. Bigger, Better and Glitzier, FELICIFIC' 15 will be all that the previous version was much more. With many new competitions and the existing ones updated in sync with the latest technologies, this promises to be the ultimate battle of wits and As the FELICIFIC saga continues and with each step we soar to new heights, we remain grounded to our core values. So why worry about the destination when the journey can be so invigorating? Be a part of FELICIFIC and experience the awesome, spectacular, sublime, enthralling and everything you ever dreamed of. "
+                android:textAlignment="textStart"
+                android:textColor="#212121"
+                android:textSize="15dp"
+                android:textStyle="italic"
+
+                />
+
+
+            <Button
+                android:id="@+id/fbfeli"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:background="@drawable/rounded_corner"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Facebook"
+                android:textSize="19dp"
+                android:typeface="serif" />
+
+<!--
+            <Button
+                android:id="@+id/instafeli"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:background="@drawable/rounded_corner"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Instagram"
+                android:textSize="19dp"
+                android:typeface="serif" />-->
+
+            <Button
+                android:id="@+id/gmailfeli"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:background="@drawable/rounded_corner"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Send Email"
+                android:textSize="19dp"
+                android:typeface="serif" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+

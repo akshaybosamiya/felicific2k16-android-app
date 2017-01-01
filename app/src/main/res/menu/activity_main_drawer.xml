@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/technical"
+            android:icon="@drawable/ic_tech"
+            android:title="Technical" />
+        <item
+            android:id="@+id/centraltech"
+            android:icon="@drawable/ic_techcult"
+            android:title="Central Technical" />
+        <item
+            android:id="@+id/cultural"
+            android:icon="@drawable/ic_cultural"
+            android:title="Cultural" />
+        <item
+            android:id="@+id/conference"
+            android:icon="@drawable/ic_conf"
+            android:title="Conference" />
+        <item
+            android:id="@+id/abtfeli"
+            android:icon="@mipmap/ic_icon"
+            android:title="About Felicific" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/team"
+                android:icon="@drawable/committe"
+                android:title="Committee" />
+            <item
+                android:id="@+id/aboutus"
+                android:icon="@mipmap/ic_android_black_48dp"
+                android:title="Developers" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.felicific.application.codesweeper">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Launcher"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NcrttmActivity"
+            android:label="NCRTTM 2016"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AboutusActivity"
+            android:label="Developer"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutFelicific"
+            android:label="About Felicific"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TechActivity"
+            android:label="Technical Event" />
+        <activity android:name=".Branch_event_details"
+            android:label="Technical Events"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".Technical_centeral"
+            android:label="Central Technical"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Cultural_grid"
+            android:label="Cultural"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Cultural_result"
+            android:label="Cultural Event"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Technical_central_result"
+            android:label="Central Technical Event"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Committee"
+            android:label="Committees"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

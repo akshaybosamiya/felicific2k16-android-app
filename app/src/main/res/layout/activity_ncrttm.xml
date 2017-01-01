@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="org.felicific.application.codesweeper.NcrttmActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="#d1f4b6"
+        android:padding="16dp">
+
+     <org.felicific.application.codesweeper.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NCRTTM 2016"
+        android:textSize="18dp"
+         android:gravity="center"
+        android:id="@+id/ncttm_title"
+        android:textAllCaps="true"
+        android:textColor="#276cb0"/>
+
+    <org.felicific.application.codesweeper.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="GUJCOST sponsered NCRTTM-16 (National Conference on Recent Trends in Technology and Management) organize under the banner of FELICIFIC16 (National Level Annual TechoCultural Fest) organized by Dharmsinh Desai University. NCRTTM-16 provides anplatform for Graduate, Post graduate students, research scholars of Engineering, Technology, Management and industry professionals to deliberate, explore and contribute their research findings, and to discuss the latest developments in the fields of Engineering and Technology Experts will be delivering lectures on current topics of relevance in different streams of engineering. "
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="4dp"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:textColor="#212121"
+
+        />
+
+        <Button
+            android:id="@+id/bro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Brochure"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:textSize="21dp"
+            android:typeface="serif"
+            android:textColor="#ffffff"/>
+        <Button
+            android:id="@+id/ppr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:textSize="21dp"
+            android:typeface="serif"
+            android:textColor="#ffffff"
+            android:text="Paper Template"/>
+        <Button
+            android:id="@+id/sample"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:textSize="21dp"
+            android:typeface="serif"
+            android:textColor="#ffffff"
+            android:text="Sample Poster"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

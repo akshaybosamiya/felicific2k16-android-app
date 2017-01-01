@@ -1,0 +1,263 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23a9a0a0"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="185dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/akshay" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <org.felicific.application.codesweeper.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="Roboto-Thin"
+                    android:text="Akshay Bosamiya (CE, 6th SEM)"
+                    android:textColor="#212121"
+                    android:textSize="18dp"
+
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+
+                        android:id="@+id/img_f"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#3b5998"
+
+                        android:fontFamily="Roboto-Thin"
+                        android:gravity="center_vertical"
+                        android:text="Facebook "
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff" />
+
+                    <Button
+
+                        android:id="@+id/img_t"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="Roboto-Thin"
+                        android:gravity="center_vertical"
+                        android:text=" Twitter  "
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:background="#00aced"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="185dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/vimox" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <org.felicific.application.codesweeper.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="Roboto-Thin"
+                    android:text="Vimox Shah (CE, 6th SEM)"
+                    android:textColor="#212121"
+                    android:textSize="18dp"
+
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/fbfeli"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="Roboto-Thin"
+                        android:gravity="center_vertical"
+                        android:text="Facebook "
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:background="#3b5998"/>
+
+                    <Button
+                        android:id="@+id/img_t1"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#00aced"
+                        android:fontFamily="Roboto-Thin"
+                        android:gravity="center_vertical"
+                        android:text=" Twitter  "
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="185dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tvrsir" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <org.felicific.application.codesweeper.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="Roboto-Thin"
+                    android:text="Faculty Co-Ordinator\nProf. Tushar V. Ratanpara\n(CE Department)"
+                    android:textColor="#212121"
+                    android:textSize="18dp"
+                    android:textAlignment="center"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/tvrsirfb"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="Roboto-Thin"
+                        android:gravity="center_vertical"
+                        android:text="Facebook "
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:background="#3b5998"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
